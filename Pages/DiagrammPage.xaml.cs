@@ -245,7 +245,7 @@ namespace UP01_Sedikov_Library.Pages
                         }
                     }
                 }
-
+                document.SaveAs2(System.IO.Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.Desktop), "Отчет.pdf"), Word.WdSaveFormat.wdFormatPDF);
                 application.Visible = true;
             }
             catch (System.Exception ex)

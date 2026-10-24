@@ -65,8 +65,19 @@ namespace UP01_Sedikov_Library.Pages
 
         private void ButtonEdit_Click(object sender, RoutedEventArgs e)
         {
-            var selectedBook = (sender as Button).DataContext as Book;
-            NavigationService?.Navigate(new AddBookPage(selectedBook));
+            var button = sender as Button;
+            if (button != null)
+            {
+                var selectedBook = button.DataContext as Book;
+                if (selectedBook != null)
+                {
+                    NavigationService?.Navigate(new AddBookPage(selectedBook));
+                }
+                else
+                {
+                    MessageBox.Show("Ошибка: не удалось получить данные книги!");
+                }
+            }
         }
     }
 }
