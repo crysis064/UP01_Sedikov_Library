@@ -6,7 +6,7 @@
       xmlns:local="clr-namespace:UP01_Sedikov_Library.Pages"
       mc:Ignorable="d" 
       d:DesignHeight="450" d:DesignWidth="800"
-      Title="AuthPage">
+      Title="Авторизация">
 
     <Grid Background="#F3F3F3">
         <Border Background="White" CornerRadius="10" Padding="40" Width="400" 

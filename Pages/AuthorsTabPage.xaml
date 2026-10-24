@@ -6,7 +6,7 @@
       xmlns:local="clr-namespace:UP01_Sedikov_Library.Pages"
       mc:Ignorable="d" 
       d:DesignHeight="450" d:DesignWidth="800"
-      Title="AuthorsTabPage">
+      Title="Авторы">
 
     <Grid Background="#F3F3F3" Margin="10">
         <Grid.RowDefinitions>

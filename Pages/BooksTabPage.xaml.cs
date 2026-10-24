@@ -29,7 +29,10 @@ namespace UP01_Sedikov_Library.Pages
             {
                 using (var db = new DB_Sedikov_LibraryEntities())
                 {
-                    DataGridBooks.ItemsSource = db.Book.Include("Genres").ToList();
+                    DataGridBooks.ItemsSource = db.Book
+                        .Include("Genres")
+                        .Include("Author")
+                        .ToList();
                 }
             }
         }

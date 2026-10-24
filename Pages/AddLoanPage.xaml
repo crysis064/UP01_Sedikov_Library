@@ -6,7 +6,7 @@
       xmlns:local="clr-namespace:UP01_Sedikov_Library.Pages"
       mc:Ignorable="d" 
       d:DesignHeight="450" d:DesignWidth="800"
-      Title="AddLoanPage">
+      Title="Оформление выдачи">
 
     <Grid Background="#F3F3F3">
         <Border Background="White" CornerRadius="10" Padding="20" VerticalAlignment="Center" HorizontalAlignment="Center">
